@@ -1,0 +1,116 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.navbar {
+  background-color: #0076f5;
+}
+
+.dropdown-menu {
+  background-color: #0076f5 !important;
+}
+
+.nav-link, .navbar-brand{
+  color: #fff !important;
+}
+
+.nav-link:hover, .navbar-brand:hover{
+  color: gold !important;
+}
+
+
+
+.fa-row {
+  background-color: #0076f5;
+  text-align: center;
+  padding-bottom: 35px;
+  padding-top: 35px;
+  color: #ffffff;
+  font-weight: bold;
+  
+}
+
+.fas, .fab {
+  font-size: 60px;
+}
+
+.fas:hover, .fab:hover {
+  color: gold;
+  transform: scale(1.1);
+}
+
+.fab-link {
+  font-weight: bold;
+  color: white;
+}
+
+.fab-link:hover {
+  color: gold;
+}
+
+/*footer*/
+.footer-row {
+  background-color: #0076f5;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+
+.footer-row a {
+  color: white;
+}
+
+.footer-row a:hover {
+  color: gold;
+}
+
+iframe {
+  padding: 30px 0px 30px 0px;
+}
+
+/*parallax*/
+.parallax {
+  background-image: url("https://wallpaperboat.com/wp-content/uploads/2020/10/07/56141/genshin-impact-26.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery-row {
+  text-align: center;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.cropped {
+  width: 300px;
+  height: 300px;
+}
+
+.cropped-1 {
+  object-fit: cover;
+  object-position:;
+  clip-path: circle(50% at 50% 50%);
+
+}
+
+.cropped-2 {
+  object-fit: cover;
+  clip-path: circle(50% at 50% 50%);
+
+}
+
+.cropped-3 {
+  object-fit: cover;
+  clip-path: circle(50% at 50% 50%);
+
+}
